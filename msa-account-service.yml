@@ -1,0 +1,14 @@
+example:
+  message: "account message"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh"
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://192.168.99.100:5432/msa_account_db"
+    username: "youngsil"
+    password: "1234"
